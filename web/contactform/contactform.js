@@ -89,15 +89,21 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    else var str = $(this).serialize();
+    else var str = $(this).serializeArray();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = 'https://scquery.deeep08.com/contactus';
     }
+
+    var data = {}
+    str.forEach(item => {
+      data[item.name] = item.value;
+    });
+
     $.ajax({
       type: "POST",
       url: action,
-      data: str,
+      data: JSON.stringify(data),
       success: function(msg) {
         // alert(msg);
         if (msg == 'OK') {
@@ -109,7 +115,6 @@ jQuery(document).ready(function($) {
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
         }
-
       }
     });
     return false;

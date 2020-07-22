@@ -1,2 +1,4 @@
 .idea/
 shagunconsultants.iml
+/aws-lambda-notification/aws-lambda-notification.iml
+/aws-lambda-notification/node_modules/
