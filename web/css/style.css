@@ -691,7 +691,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .profile {
-  text-align: center;
+  text-align: right;
 }
 
 #testimonials .profile .pic {
@@ -721,7 +721,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #testimonials .quote {
   position: relative;
   background: #fff;
-  padding: 60px;
+  padding: 30px;
   margin-top: 40px;
   font-size: 16px;
   font-style: italic;
