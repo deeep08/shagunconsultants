@@ -765,6 +765,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
 }
 
+#team .member .founder {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 1200px;
+}
+
+#team .member .founder img {
+  max-width: 100%;
+}
+
 #team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;

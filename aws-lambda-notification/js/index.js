@@ -7,12 +7,14 @@ exports.handler = async (event) => {
 
     // Create publish parameters
     let message = `You received a new query. See below for details:-` +
-        `\n\n Name: ${body.name}` +
-        `\n Email: ${body.email}` +
-        `\n Message:\n ${body.message}`;
+        `\n\nName: ${body.name}` +
+        `\nEmail: ${body.email}` +
+        `\nMessage:\n${body.message}` +
+        `\n\nThanks,` +
+        `\nShagun Consultants Service`;
 
     let params = {
-        Subject: `SC New Query: ${body.subject}`,
+        Subject: `New Query: ${body.subject}`,
         Message: message, /* required */
         TopicArn: 'arn:aws:sns:us-east-1:198174245046:SCQueryNotification'
     };
