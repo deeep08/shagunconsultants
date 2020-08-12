@@ -1,0 +1,30 @@
+{
+  "name": "shagunconsultants",
+  "version": "1.0.0",
+  "description": "Website for Shagun Consultants",
+  "private": true,
+  "directories": {
+    "lib": "src/lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "exports-loader": "^1.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "jquery": "^1.12.4",
+    "popper.js": "^1.16.1",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "wowjs": "^1.1.3"
+  }
+}

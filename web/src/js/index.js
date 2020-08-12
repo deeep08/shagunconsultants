@@ -1,3 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import wowjs from 'wowjs'
+import '../lib/superfish/hoverIntent'
+import '../lib/superfish/superfish.min'
+import '../lib/morphext/morphext.min'
+import '../lib/stickyjs/sticky'
+import '../lib/easing/easing.min'
+import '../contactform/contactform'
+
 jQuery(document).ready(function( $ ) {
 
   // Preloader
@@ -13,7 +23,7 @@ jQuery(document).ready(function( $ ) {
   });
   
   // Initiate the wowjs
-  new WOW().init();
+  new wowjs.WOW().init();
   
   // Initiate superfish on nav menu
   $('.nav-menu').superfish({

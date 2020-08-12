@@ -1,0 +1,48 @@
+/* DIRTY Responsive pricing table CSS */
+
+/* 
+- make mobile switch sticky
+*/
+#pricing th { background:#F5F5F5; text-transform: uppercase; }
+#pricing td, th {
+  height:53px
+}
+#pricing td,th { border:1px solid #DDD; padding:10px; empty-cells:show; }
+#pricing td,th {
+  text-align:left;
+}
+#pricing td+td, th+th {
+  text-align:center;
+}
+#pricing span.subhead {
+  text-transform: none !important;
+}
+#pricing td.alignright {
+  text-align: right;
+}
+#pricing td.default {
+  background:#E6FAD9;
+}
+#pricing .bg-purple {
+  border-top:3px solid #A32362;
+}
+#pricing .bg-blue {
+  border-top:3px solid #0097CF;
+}
+#pricing .bg-bottom-purple {
+  border-bottom:3px solid #A32362;
+}
+#pricing .bg-bottom-blue {
+  border-bottom:3px solid #0097CF;
+}
+#pricing .sep {
+  background:#F5F5F5;
+  font-weight:bold;
+}
+#pricing .txt-l { font-size:28px; font-weight:bold; }
+#pricing .txt-top { position:relative; top:-9px; left:-2px; }
+#pricing .tick { font-size:18px; color:#2CA01C; }
+#pricing .blank {
+  border:0;
+  background:none;
+}
