@@ -7,7 +7,7 @@ cd ..
 
 mkdir -p $APACHE_WEB_DIR/shagunconsultants
 cp -r web/src/* $APACHE_WEB_DIR/shagunconsultants/
-cp -r web/dist/bundle.js $APACHE_WEB_DIR/shagunconsultants/js/index.js
+cp -r web/dist/* $APACHE_WEB_DIR/shagunconsultants/
 
 #aws s3 cp shagunconsultants/gallery.html s3://sc.deeep08.com/gallery.html --profile deeep08 --recursive
 #aws s3 cp shagunconsultants/gallery.html s3://sc.deeep08.com/gallery.html --profile deeep08

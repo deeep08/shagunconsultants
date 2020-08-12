@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/style.css'
+import '../css/pricing2.css'
 
 import wowjs from 'wowjs'
 import '../lib/superfish/hoverIntent'
