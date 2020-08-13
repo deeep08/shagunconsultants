@@ -38,6 +38,13 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/pricing2.css" rel="stylesheet">
 
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+
   <!-- =======================================================
     Theme Name: Imperial
     Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
@@ -56,14 +63,14 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="./index.html#hero"><img src="img/sc-logo.jpg" alt="" title="" /></img></a>
+        <a href="./index.html#hero"><img src="img/SC_1.png" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Header 1</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li class="menu-active"><a href="./index.html#hero">Home</a></li>
           <li><a href="./index.html#services">Services</a></li>
           <li><a href="./index.html#pricing">Pricing</a></li>
           <li><a href="./gallery.html">Gallery</a></li>
@@ -92,115 +99,287 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/FB_IMG_1451655630758.jpg);" href="">
-<!--            <div class="details">-->
-<!--              <h4>Portfolio 1</h4>-->
-<!--              <span>Alored dono par</span>-->
-<!--            </div>-->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/facebook_1489909800307.jpg);" href="">
-<!--            <div class="details">-->
-<!--              <h4>Portfolio 2</h4>-->
-<!--              <span>Alored dono par</span>-->
-<!--            </div>-->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/FB_IMG_1451655648028.jpg);" href="">
-<!--            <div class="details">-->
-<!--              <h4>Portfolio 3</h4>-->
-<!--              <span>Alored dono par</span>-->
-<!--            </div>-->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/IMG_0026.JPG);" href="">
-            <!-- <div class="details">
-              <h4>Portfolio 4</h4>
-              <span>Alored dono par</span>
-            </div> -->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/IMG_0028.JPG);" href="">
-            <!-- <div class="details">
-              <h4>Portfolio 4</h4>
-              <span>Alored dono par</span>
-            </div> -->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/Manish-ji.jpg);" href="">
-<!--            <div class="details">-->
-<!--              <h4>Portfolio 5</h4>-->
-<!--              <span>Alored dono par</span>-->
-<!--            </div>-->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/Upadhyay-ji-Cam-A.jpg);" href="">
-            <!-- <div class="details">
-              <h4>Portfolio 6</h4>
-              <span>Alored dono par</span>
-            </div> -->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/Upadhyay-ji-Cam-B.jpg);" href="">
-            <!-- <div class="details">
-              <h4>Portfolio 7</h4>
-              <span>Alored dono par</span>
-            </div> -->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/khajrana-ele-03.jpg);" href="">
-            <!-- <div class="details">
-              <h4>Portfolio 8</h4>
-              <span>Alored dono par</span>
-            </div> -->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/Nepaniya-01.jpg);" href="">
-            <!-- <div class="details">
-              <h4>Portfolio 8</h4>
-              <span>Alored dono par</span>
-            </div> -->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/IMG-20150506-WA0004.jpg);" href="">
-            <!-- <div class="details">
-              <h4>Portfolio 8</h4>
-              <span>Alored dono par</span>
-            </div> -->
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/sc-images/IMG_20170222_115922007.jpg);" href="./img/sc-images/IMG_20170222_115922007.jpg">
-            <!-- <div class="details">
-              <h4>Portfolio 8</h4>
-              <span>Alored dono par</span>
-            </div> -->
-          </a>
-        </div>
-
+      <div class="row" uk-lightbox="animation: scale">
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-16.jpg);" href="img/sc-site-images/SC-Site-16.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-17.jpg);" href="img/sc-site-images/SC-Site-17.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-18.jpg);" href="img/sc-site-images/SC-Site-18.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-30.jpg);" href="img/sc-site-images/SC-Site-30.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-31.jpg);" href="img/sc-site-images/SC-Site-31.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-6.jpg);" href="img/sc-site-images/SC-Site-6.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-1.jpg);" href="img/sc-site-images/SC-Site-1.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-2.jpg);" href="img/sc-site-images/SC-Site-2.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-3.jpg);" href="img/sc-site-images/SC-Site-3.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-4.jpg);" href="img/sc-site-images/SC-Site-4.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-5.jpg);" href="img/sc-site-images/SC-Site-5.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-7.jpg);" href="img/sc-site-images/SC-Site-7.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-8.jpg);" href="img/sc-site-images/SC-Site-8.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-9.jpg);" href="img/sc-site-images/SC-Site-9.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-10.jpg);" href="img/sc-site-images/SC-Site-10.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-11.jpg);" href="img/sc-site-images/SC-Site-11.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-12.jpg);" href="img/sc-site-images/SC-Site-12.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-13.jpg);" href="img/sc-site-images/SC-Site-13.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-14.jpg);" href="img/sc-site-images/SC-Site-14.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-15.jpg);" href="img/sc-site-images/SC-Site-15.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-19.jpg);" href="img/sc-site-images/SC-Site-19.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-20.jpg);" href="img/sc-site-images/SC-Site-20.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-21.jpg);" href="img/sc-site-images/SC-Site-21.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-22.jpg);" href="img/sc-site-images/SC-Site-22.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-23.jpg);" href="img/sc-site-images/SC-Site-23.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-24.jpg);" href="img/sc-site-images/SC-Site-24.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-25.jpg);" href="img/sc-site-images/SC-Site-25.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-26.jpg);" href="img/sc-site-images/SC-Site-26.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-27.jpg);" href="img/sc-site-images/SC-Site-27.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-28.jpg);" href="img/sc-site-images/SC-Site-28.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-29.jpg);" href="img/sc-site-images/SC-Site-29.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-32.jpg);" href="img/sc-site-images/SC-Site-32.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-33.jpg);" href="img/sc-site-images/SC-Site-33.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-34.jpg);" href="img/sc-site-images/SC-Site-34.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
+          <div class="col-md-4">
+              <a class="portfolio-item" style="background-image: url(img/sc-site-images/SC-Site-35.jpg);" href="img/sc-site-images/SC-Site-35.jpg">
+                  <!--<div class="details">-->
+                  <!--  <h4>Portfolio 1</h4>-->
+                  <!--  <span>Alored dono par</span>-->
+                  <!--</div>-->
+              </a>
+          </div>
       </div>
     </div>
   </section>
