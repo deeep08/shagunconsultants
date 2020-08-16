@@ -580,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #pricing {
   background: #fff;
-  padding: 80px 0;
+  padding: 80px 0 0 0;
 }
 
 /* Subscribe Section
@@ -638,7 +638,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 260px;
+  height: 360px;
   width: 100%;
   display: table;
   overflow: hidden;
@@ -736,6 +736,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: -8px;
 }
 
+#testimonials .quote a {
+  color: #666666;
+}
+
 #testimonials .quote small {
   display: inline-block;
   right: -9px;
@@ -768,11 +772,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .founder {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 1200px;
 }
 
 #team .member .founder img {
   max-width: 100%;
+  height: auto;
 }
 
 #team .member h4 {
